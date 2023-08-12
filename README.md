@@ -13,7 +13,7 @@
 
 ### RUN
 - clone this repo
-- run ```bash npm install ```
+- run ``` npm install ```
 - run ``` ng serve -o ```
 
 
