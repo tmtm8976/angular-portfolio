@@ -1,0 +1,16 @@
+<div class="container gg">
+    <h2>Skills</h2>
+    <hr>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let skill of skills">
+        <div class="skill">
+          <h4>{{ skill.name }}</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" [style.width]="skill.progress + '%'">
+              {{ skill.progress }}%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
